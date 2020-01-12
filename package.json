@@ -1,0 +1,29 @@
+{
+  "name": "mmm-burnin",
+  "version": "1.0.0",
+  "description": "A module for MagicMirror 2 displaying your Bring! shopping list.",
+  "main": "MMM-BurnIn.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werthdavid/MMM-BurnIn.git"
+  },
+  "keywords": [
+    "magic",
+    "mirror",
+    "2",
+    "lcd",
+    "amoled",
+    "burn-in",
+    "burn",
+    "screensaver",
+    "module"
+  ],
+  "author": "David Werth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/werthdavid/MMM-BurnIn/issues"
+  },
+  "homepage": "https://github.com/werthdavid/MMM-BurnIn#readme",
+  "dependencies": {
+  }
+}
