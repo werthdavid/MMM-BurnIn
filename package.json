@@ -1,7 +1,7 @@
 {
   "name": "mmm-burnin",
   "version": "1.0.0",
-  "description": "A module for MagicMirror 2 displaying your Bring! shopping list.",
+  "description": "A module for MagicMirror 2 that should prevent a burn-in effect on your display.",
   "main": "MMM-BurnIn.js",
   "repository": {
     "type": "git",

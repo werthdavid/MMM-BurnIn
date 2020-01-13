@@ -41,6 +41,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.d
-
-# Bring API config
-bring.config.json
