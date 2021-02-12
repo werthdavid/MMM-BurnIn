@@ -1,7 +1,8 @@
 Module.register("MMM-BurnIn", {
 
 	defaults: {
-		updateInterval: 15
+		updateInterval: 15,
+                invertDuration: 5,   // in seconds
 	},
 
 	getStyles: function () {
@@ -24,7 +25,7 @@ Module.register("MMM-BurnIn", {
 		setTimeout(() => {
 			document.getElementsByTagName("body").item(0).style = "filter: invert(0)";
 			this.updateDom(1000);
-		}, 5000);
+		}, this.config.invertDuration * 1000);
 		setTimeout(() => {
 			this.startAntiBurnin();
 		}, this.config.updateInterval * 60 * 1000);

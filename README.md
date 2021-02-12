@@ -19,7 +19,8 @@ Add this configuration into `config.js` file's
     module: "MMM-BurnIn",
     position: "bottom_bar", // whatever, doesn't render anything
     config: {
-       updateInterval: 15 // in Minutes
+       updateInterval: 15, // in Minutes
+       invertDuration: 5 // in Seconds
     }
 }
 ```
